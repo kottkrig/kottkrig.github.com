@@ -153,6 +153,7 @@ div.site {
 /* footer */
 .description {
 	width:220px;
+	float:right;
 }
 
 .footer {
