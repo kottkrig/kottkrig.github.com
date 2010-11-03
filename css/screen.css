@@ -91,7 +91,7 @@ div.site {
 
 
 .footer img.portrait {
-   border: 7px solid #668;
+   border: 7px solid #a6885b;
    margin-left: 15px;
    float: right;
 }
@@ -154,7 +154,7 @@ div.site {
 .footer {
   padding-top: 1em;
   clear: both;
-  border-top: 3px solid #668;
+  border-top: 3px solid #a6885b;
   margin: 1em 0 2em 0;
 }
 .footer .contact {
@@ -183,7 +183,7 @@ div.site {
 em {
   font-weight: bold;
   font-style: normal;
-  background: #668;
+  background: #a6885b;
   padding:2px 3px;
 }
 
