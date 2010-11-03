@@ -91,7 +91,7 @@ div.site {
 
 
 .footer img.portrait {
-   border: 7px solid #a6885b;
+   border: 7px solid #5f5a5f;
    margin-left: 15px;
    float: right;
 }
@@ -154,7 +154,7 @@ div.site {
 .footer {
   padding-top: 1em;
   clear: both;
-  border-top: 3px solid #a6885b;
+  border-top: 3px solid #5f5a5f;
   margin: 1em 0 2em 0;
 }
 .footer .contact {
@@ -190,5 +190,5 @@ em {
 .strap
 {
   font-size:90%;
-  color:#88a;
+  color:#5f5a5f;
 }
