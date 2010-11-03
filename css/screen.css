@@ -151,6 +151,10 @@ div.site {
 }
 
 /* footer */
+.description {
+	width:220px;
+}
+
 .footer {
   padding-top: 1em;
   clear: both;
