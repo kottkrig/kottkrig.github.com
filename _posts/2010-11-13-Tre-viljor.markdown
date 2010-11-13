@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tre viljor"
-date: 2010-11-02 15:35:27 +0000
+date: 2010-11-13 12:45:27 +0000
 categories:
   - android
   - mobil
