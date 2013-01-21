@@ -8,17 +8,12 @@ html, body {
 }
 
 body {
-  font-size: 16px;
-  background-color: white;
-  color: #222222;
-  line-height: 24px;
-  margin: 0;
-  border-top: 7px solid #0C84E8;
+  font-size: 18px;
+  line-height: 1.5em;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #181818;
-  font-family: "open sans", sans-serif;
+  color: #222;
   font-weight: 600;
 }
 
@@ -60,11 +55,6 @@ a:visited {
   color: #0C84E8;
 }
 
-table {
-  font-size: inherit;
-  font: 100%;
-}
-
 img {
   display: block;
   margin-left: auto;
@@ -78,8 +68,6 @@ ul.posts {
 }
 
 ul.posts li {
-  line-height: 22px;
-  font-size: 16px;
   margin-bottom: 0px;
 }
 
@@ -102,57 +90,15 @@ ul.posts span {
   overflow: hidden;
 }
     
-
-#post pre {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .4em;
-  margin-bottom: 20px !important;
-}
-
 #post ul,
 #post ol {
   margin-left: 1.35em;
 }
 
-#post code {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  font-size: 85%;
-  padding: 0 .2em;
-}
-
-#post pre code {
-  border: none;
-}
-
-.book-writeup p img 
-{
-  padding: 5px;
-  border: 1px solid #AAA;
-  border-radius: 3px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
-}
-
-.pic img 
-{
-  padding: 5px;
-  border: 1px solid #AAA;
-  border-radius: 3px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
-  margin-bottom: 15px;
-}
-
-.project-date {
-  color: #aaa !important;
-  font-family: Monaco, "Courier New", monospace;
-  font-size: 80%;
-  font-weight: normal;
-}
 
 .sidebar {
   padding-top: 25px;
-  font-family: "open sans", sans-serif;
+  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .sidebar p {
@@ -164,7 +110,6 @@ ul.posts span {
 }
 
 .content {
-  font: 400 16px/22px "open sans", sans-serif;
   border-left: 1px solid #DDD;
   padding-left: 40px;
   padding-top: 25px;
@@ -181,28 +126,6 @@ ul.posts span {
   overflow: hidden;
 }
 
-.gist {
-  font-size: 12px !important;
-}
-
-sup {
-  vertical-align: super;
-  font-size: smaller;
-}
-
-.aside {
-  font-size: 75%;
-  color: #666;
-}
-
-#blog-posts a, #talk-posts a, #book-posts a {
-  color: #333;
-}
-
-#blog-posts a:visited, #talk-posts a:visited, #book-posts a:visited {
-  color: #AAA;
-}
-
 #home h2 {
   color: #0C84E8;
 }
@@ -215,19 +138,6 @@ sup {
 #stalker a:hover {
   text-decoration: none;
   color: #0C84E8;
-}
-
-.icon-hn {
-  background-color: #0C84E8;
-  font-weight: bold;
-  color: white;
-  font-size: 20px;
-  height: 24px;
-  width: 24px;
-  text-align: center;
-  position: relative;
-  bottom: 5px;
-  margin-right: 5px;
 }
 
 .home {
