@@ -43,7 +43,7 @@ ul {
 }
 
 a {
-  color: #0C84E8;
+  color: #004f95;
   text-decoration: none;
 }
 
@@ -52,7 +52,7 @@ a:hover {
 }
 
 a:visited {
-  color: #0C84E8;
+  color: #004f95;
 }
 
 img {
@@ -127,7 +127,7 @@ ul.posts span {
 }
 
 #home h2 {
-  color: #0C84E8;
+  color: #004f95;
 }
 
 #stalker i {
@@ -137,7 +137,7 @@ ul.posts span {
 
 #stalker a:hover {
   text-decoration: none;
-  color: #0C84E8;
+  color: #004f95;
 }
 
 .home {
