@@ -4,25 +4,22 @@ layout: nil
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>Chris Parsons</title>
-
- <link href="http://chrismdp.github.com/"/>
+ <title>Johan Larsson</title>
+ <link href="http://kottkrig.github.com/atom.xml" rel="self"/>
+ <link href="http://kottkrig.github.com/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://chrismdp.github.com/</id>
+ <id>http://kottkrig.github.com/</id>
  <author>
-   <name>Chris Parsons</name>
-   <email>chrismdp@gmail.com</email>
+   <name>Johan Larsson</name>
+   <email>johan@johanl.se</email>
  </author>
- 
+
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
-   {% for category in post.categories %}
-   <category term="{{category}}" />
-   {% endfor %}
-   <link href="http://chrismdp.github.com{{ post.url }}"/>
+   <link href="http://kottkrig.github.com{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://chrismdp.github.com{{ post.id }}</id>
+   <id>http://kottkrig.github.com{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}

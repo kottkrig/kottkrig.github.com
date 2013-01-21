@@ -1,32 +1,22 @@
 ---
 layout: default
 ---
-<div id="post" class="post">
-  <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
-  <div class="strap">Johan Larsson • {{ page.date | date: "%A %d %B %Y" }}</div>
-  {{ content }}
 
+<p class="meta"> {{ page.date | date: "%B %d, %Y" }} 
+<a href="/"><i class="home icon-home"></i></a>
+</p>
+<h1 class="title">{{ page.title }}</h1>
+
+
+<div id="post">
+{{ content }}
 </div>
-<!--<a name="comments"></a><h2>Comments</h2>
-<script>
-var idcomments_acct = 'de943a17fc1fadf49a063eade60b2bee';
-var idcomments_post_id;
-var idcomments_post_url;
-</script>
-<span id="IDCommentsPostTitle" style="display:none"></span>
-<script type='text/javascript' src='http://www.intensedebate.com/js/genericCommentWrapperV2.js'></script> -->
 
-<!--<div id="disqus_thread"></div>
-<script type="text/javascript">
-  /**
-    * var disqus_identifier; [Optional but recommended: Define a unique identifier (e.g. post id or slug) for this thread] 
-    */
-  (function() {
-   var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-   dsq.src = 'http://kottkrig-github.disqus.com/embed.js';
-   (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-  })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript=kottkrig-github">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a> -->
-
+<!-- <div id="related">
+  <h3>Det här kan också vara av intresse:</h3>
+  <ul class="posts">
+    {% for post in site.related_posts limit:3 %}
+    <li><span>{{ post.date | date_to_string }} &raquo;</span> <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div> -->
