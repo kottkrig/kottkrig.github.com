@@ -4,10 +4,6 @@ title: "Tre viljor"
 date: 2010-11-13 12:45:27 +0000
 categories:
 - blog
-- android
-- mobil
-- iOS
-- WinPhone
 ---
 
 Det blir mer och mer uppenbart att de tre stora plattformstillverkarna (Apple, Microsoft och Google) kommer dra åt olika håll när det gäller utvecklingen av deras mobila operativsystem. Idag är de i sanningens namn rätt lika varandra (utseendet skiljer sig en del men förfarandet är detsamma) men jag har en känsla av att det inte kommer dröja länge innan de kommer dra åt olika håll. Man ser också tydliga tendenser på åt vilka håll det bär för de olika aktörerna. 
