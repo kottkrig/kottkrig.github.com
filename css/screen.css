@@ -53,6 +53,7 @@ a {
 
 a:hover {
   text-decoration: underline;
+
 }
 
 a:visited {
@@ -141,7 +142,7 @@ ul.posts span {
 
 #stalker a:hover {
   text-decoration: none;
-  color: #0C84E8;
+  color: #000;
 }
 
 .home {
