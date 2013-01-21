@@ -42,6 +42,10 @@ ul {
   list-style: disc;
 }
 
+#post li {
+  line-height: 1.5em;
+}
+
 a {
   color: #0C84E8;
   text-decoration: none;
