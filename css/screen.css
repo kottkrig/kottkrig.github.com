@@ -115,9 +115,9 @@ ul.posts span {
 }
 
 .content {
-  border-left: 1px solid #DDD;
-  /*padding-left: 40px;
-  padding-top: 25px;*/
+  /*border-left: 1px solid #DDD;
+  padding-left: 40px;*/
+  padding-top: 25px;
 }
 
 .footer {
